@@ -1,0 +1,15 @@
+@"
+# Ignore Terraform binaries and cache
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+"@ | Out-File -Encoding UTF8 .gitignore
