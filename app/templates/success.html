@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation Success</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #36b9cc, #1cc88a);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h2 {
+            color: #1cc88a;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background: #4e73df;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background: #2e59d9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Thank You {{ name }}! 🎉</h2>
+        <p>Your donation of ₹{{ amount }} has been received.</p>
+        <a href="/">Go Back</a>
+    </div>
+
+</body>
+</html>
