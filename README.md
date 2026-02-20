@@ -107,6 +107,7 @@ terraform apply
 
 
 This provisions infrastructure automatically without manual setup
+
 🔄 Key Features
 
 - Interactive donation form
@@ -134,7 +135,9 @@ This provisions infrastructure automatically without manual setup
 - AWS EC2 deployment using Terraform
 - CI/CD integration (GitHub Actions / Jenkins)
 - Database integration for storing donations
-- Production-ready deployment with Gunicorn & Nginx
+
+
+
 👩‍💻 Author
 
 Kratika Singhal
