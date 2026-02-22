@@ -73,11 +73,12 @@ docker build -t ngo-app .
 ### Step 2: Run Docker Container
 
 
-docker run -d -p 8000:5000 ngo-app
+docker run -p 5000:5000 ngo-app
+
 Step 3: Open in Browser
 
 
-http://localhost:8000
+http://localhost:5000
 
 
 You will see the NGO Donation Form.
